@@ -16,6 +16,8 @@
     padding-right: 0px; 
     padding-left: 0px;
     padding-bottom: 80px;
+    border: 2px solid rgba(0,0,0,1);
+    box-shadow: 15px 15px 1px #ffa580, 15px 15px 1px 2px rgba(0,0,0,1)
 }
 
 input[type=text] {
@@ -27,7 +29,7 @@ input[type=text] {
     outline: none;
     color: rgba(0,0,0,1); 
     font-family: 'Fjalla One', sans-serif;
-    font-size: 20px; 
+    font-size: 15px; 
     background-color: transparent;
 }
 
@@ -43,13 +45,15 @@ input:focus {
     display: block;
     margin: auto; 
     margin-top: 60px;
-    padding: 0 20px; 
+    padding: 5px 20px; 
     background: #ffa580;
     letter-spacing: 2px;
     transition: .4s all ease-in-out;
     outline: none;
     border: 1px solid rgba(0,0,0,1);
-    box-shadow: 3px 3px 1px #BDBDDB, 3px 3px 1px 1px rgba(0,0,0,1)
+    box-shadow: 3px 3px 1px #BDBDDB, 3px 3px 1px 1px rgba(0,0,0,1); 
+    font-family: 'Padauk', sans-serif;
+    font-size: 15px;
 }
 
 .login-btn:hover {
@@ -62,3 +66,55 @@ input:focus {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+@media only screen and (max-width : 768px) {
+    .login-image {
+        min-height: 110%;
+    }
+
+    .login-welcome {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .login-form {
+        border-radius: 10px;
+        padding-top: 20px; 
+        padding-right: 0px; 
+        padding-left: 0px;
+        padding-bottom: 40px;
+    }
+
+    input[type=text] {
+        width: 60%;
+        border-bottom: 2px solid rgba(0,0,0,1);
+        font-size: 10px; 
+    }
+
+    #name-login {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .login-btn {
+        margin-top: 30px;
+        padding: 2px 10px; 
+        letter-spacing: 1px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .login-image {
+        min-height: 100%;
+    }
+
+    .login-form {
+        padding-top: 20px; 
+        padding-right: 0px; 
+        padding-left: 0px;
+        padding-bottom: 40px;
+        margin: auto
+    }
+}
+    
