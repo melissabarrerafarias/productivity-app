@@ -1,15 +1,15 @@
-.login-image {
+.signup-image {
     max-width: 100%;
     max-height: 100%;
 }
 
-.login-welcome {
+.signup-welcome {
     font-family: 'Padauk', sans-serif;
     margin-bottom: 20px;
     font-size: 38px;
 }
 
-.login-form {
+.signup-form {
     background-color: #f7d88b;
     border-radius: 10px;
     padding-top: 40px; 
@@ -37,11 +37,11 @@ input:focus {
     border-bottom: 3px solid #BDBDDB;
 }
 
-#name-login {
+#name-signup {
     margin-bottom: 50px;
 }
 
-.login-btn {
+.signup-btn {
     display: block;
     margin: auto; 
     margin-top: 60px;
@@ -56,12 +56,12 @@ input:focus {
     font-size: 15px;
 }
 
-.login-btn:hover {
+.signup-btn:hover {
     box-shadow: 3px 3px 1px #ffa580, 3px 3px 1px 1px rgba(0,0,0,1);
     background: #BDBDDB;
 }
 
-.hr-line-login {
+.hr-line-signup {
     border: 1px solid lightgray;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -70,16 +70,16 @@ input:focus {
 
 /* media queries begin */ 
 @media only screen and (max-width : 768px) {
-    .login-image {
+    .signup-image {
         min-height: 110%;
     }
 
-    .login-welcome {
+    .signup-welcome {
         margin-bottom: 10px;
         font-size: 20px;
     }
 
-    .login-form {
+    .signup-form {
         border-radius: 10px;
         padding-top: 20px; 
         padding-right: 0px; 
@@ -93,12 +93,12 @@ input:focus {
         font-size: 10px; 
     }
 
-    #name-login {
+    #name-signup {
         margin-top: 10px;
         margin-bottom: 30px;
     }
 
-    .login-btn {
+    .signup-btn {
         margin-top: 30px;
         padding: 2px 10px; 
         letter-spacing: 1px;
@@ -107,18 +107,18 @@ input:focus {
 }
 
 @media (max-width: 575.98px) {
-    .login-image {
+    .signup-image {
         min-height: 100%;
     }
 
-    .login-welcome {
+    .signup-welcome {
         margin-bottom: 10px;
         margin-top: 50px;
         font-size: 30px;
         text-align: center;
     }
 
-    .login-form {
+    .signup-form {
         padding-top: 20px; 
         padding-right: 0px; 
         padding-left: 0px;
@@ -134,7 +134,7 @@ input:focus {
         font-size: 15px;    
     }
 
-    .login-btn {
+    .signup-btn {
         padding: 4px 20px; 
         letter-spacing: 2px;
         font-size: 15px;
@@ -142,12 +142,12 @@ input:focus {
 }
 
 @media (max-width: 480px) {
-    .login-welcome {
+    .signup-welcome {
         margin-top: 20px;
         font-size: 20px;
     }
 
-    .login-form {
+    .signup-form {
         padding-top: 15px; 
         padding-bottom: 40px;
         margin-right: 20px; 
@@ -159,10 +159,9 @@ input:focus {
         font-size: 10px;    
     }
 
-    .login-btn {
+    .signup-btn {
         padding: 2px 20px; 
         letter-spacing: 2px;
         font-size: 10px;
     }
 }
-    

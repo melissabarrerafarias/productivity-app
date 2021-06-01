@@ -3,7 +3,6 @@ import '../login.css'
 import loginImage from '../images/login-image.svg';
 
 
-
 const Login = () => {
     return (
         <div className="container">
@@ -20,14 +19,12 @@ const Login = () => {
                             <button type="submit" className="login-btn">Login</button>
                         </form>
                     </div>
-                
             </div>
 
             <hr className = "hr-line-login"></hr>
             <div classname="">
                 <p>either information about the benefits of being productive or an about me section</p>
             </div> 
-
         </div>
     )
 }
