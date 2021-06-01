@@ -17,6 +17,9 @@ const Login = () => {
                             <input placeholder="name" type="text" className="row" id="name-login"></input>
                             <input placeholder="password" type="text" className="row" id="password-login"></input>
                             <button type="submit" className="login-btn">Login</button>
+                            <p className="signup-invite">Don't have an account yet?
+                            <a href="/signup" className="signup-invite-link"> Sign up!</a>
+                            </p>
                         </form>
                     </div>
             </div>

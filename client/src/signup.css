@@ -129,8 +129,7 @@ input:focus {
     }
     
     input[type=text] {
-        margin: auto;
-        width: 50%;
+        width: 70%;
         font-size: 15px;    
     }
 
