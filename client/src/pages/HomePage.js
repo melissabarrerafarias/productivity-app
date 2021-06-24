@@ -1,4 +1,6 @@
 import React from 'react';
+import Helmet from 'react-helmet';
+
 import tasksWeekImg from '../images/task-list-week.svg';
 import taskDayImg from '../images/task-list-everyday.svg';
 import healthImg from '../images/health.svg';
@@ -11,7 +13,15 @@ import '../homepage.css'
 const HomePage = () => {
     return (
         <div class="container">
-
+            <Helmet>
+                    <style>
+                       {`
+                            body {
+                                background-color: black;
+                            }
+                       `}
+                    </style>
+                </Helmet>
             <div className="row m-3">
                 <div className="col d-flex justify-content-center hub-borders">
                     {/* <h3 className="hub-titles">Week</h3> */}
