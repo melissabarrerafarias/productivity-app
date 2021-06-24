@@ -1,6 +1,7 @@
 img {
     min-height: 60%;
     max-width: 60%;
+    transition: 2s;
 }
 
 .hub-borders {
@@ -10,4 +11,21 @@ img {
     margin: 10px; 
     background-color: #f7d88b;
     min-height: 350px;
+    position: relative;
+    /* transition: 5s; */
+}
+
+.hub-borders:hover img {
+    opacity: 0.5; 
+}
+
+#week, #day, #health, #goals{
+    opacity: 0;
+    transition: 2s;
+    position: absolute;
+}
+#week-div:hover #week, #day-div:hover #day, #health-div:hover #health, #goal-div:hover #goals{
+    opacity: 10;
+    font-size: 30px; 
+    position: absolute;
 }

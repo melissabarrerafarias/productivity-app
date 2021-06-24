@@ -14,30 +14,33 @@ const HomePage = () => {
     return (
         <div class="container">
             <Helmet>
-                    <style>
-                       {`
+                <style>
+                    {`
                             body {
-                                background-color: black;
+                                background-color: #F2F2F2;
                             }
                        `}
-                    </style>
-                </Helmet>
+                </style>
+            </Helmet>
             <div className="row m-3">
-                <div className="col d-flex justify-content-center hub-borders">
-                    {/* <h3 className="hub-titles">Week</h3> */}
+                <div className="col d-flex justify-content-center hub-borders" id="week-div">
                     <img className="" src={tasksWeekImg}></img>
+                    <p id="week">Week</p>
                 </div>
-                <div className="col d-flex justify-content-center hub-borders">
+                <div className="col d-flex justify-content-center hub-borders" id="day-div">
                     <img className="" src={taskDayImg}></img>
+                    <p id="day">Everyday</p>
                 </div>
             </div>
 
             <div className="row m-3">
-                <div className="col d-flex justify-content-center hub-borders">
+                <div className="col d-flex justify-content-center hub-borders" id="health-div">
                     <img className="" src={healthImg}></img>
+                    <p id="health">Health</p>
                 </div>
-                <div className="col d-flex justify-content-center hub-borders">
+                <div className="col d-flex justify-content-center hub-borders" id="goal-div">
                     <img className="" src={goalImg}></img>
+                    <p id="goals">Goals</p>
                 </div>
             </div>
 
