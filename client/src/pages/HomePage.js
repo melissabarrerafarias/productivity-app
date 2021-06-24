@@ -11,19 +11,22 @@ import '../homepage.css'
 const HomePage = () => {
     return (
         <div class="container">
-            <div className="row">
-                <div className="col-md-6">
+
+            <div className="row m-3">
+                <div className="col d-flex justify-content-center hub-borders">
+                    {/* <h3 className="hub-titles">Week</h3> */}
                     <img className="" src={tasksWeekImg}></img>
                 </div>
-                <div className="col-md-6">
+                <div className="col d-flex justify-content-center hub-borders">
                     <img className="" src={taskDayImg}></img>
                 </div>
             </div>
-            <div className="row">
-                <div className="col-md-6">
+
+            <div className="row m-3">
+                <div className="col d-flex justify-content-center hub-borders">
                     <img className="" src={healthImg}></img>
                 </div>
-                <div className="col-md-6">
+                <div className="col d-flex justify-content-center hub-borders">
                     <img className="" src={goalImg}></img>
                 </div>
             </div>
